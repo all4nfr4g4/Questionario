@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário para Desenvolvimento de Website ou App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário para Desenvolvimento de Website ou App</h1>
+        <p class="responsavel">Responsável: <strong>Allan Fraga</strong></p>
+        <p class="descricao">Buscando realizar seus sonhos, transformando ideias em realidade!</p>
+
+        <form id="questionarioForm" method="post">
+            <section>
+                <h2>1. Informações Gerais</h2>
+                <label for="empresa">Nome da Empresa:</label>
+                <input type="text" id="empresa" name="empresa" required>
+
+                <label for="contato">Nome do Contato:</label>
+                <input type="text" id="contato" name="contato" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+
+                <label for="data">Data:</label>
+                <input type="date" id="data" name="data">
+            </section>
+
+            <section>
+                <h2>2. Objetivos do Projeto</h2>
+                <label for="objetivo">Qual é o objetivo principal do site/app?</label>
+                <textarea id="objetivo" name="objetivo" required></textarea>
+
+                <label for="problemas">Quais problemas ou necessidades o site/app deve resolver?</label>
+                <textarea id="problemas" name="problemas" required></textarea>
+            </section>
+
+            <section>
+                <h2>3. Público-Alvo</h2>
+                <label for="publico">Quem são os principais usuários do site/app?</label>
+                <textarea id="publico" name="publico" required></textarea>
+
+                <label for="expectativas">O que esse público espera ao visitar o site/app?</label>
+                <textarea id="expectativas" name="expectativas" required></textarea>
+            </section>
+
+            <section>
+                <h2>4. Design e Estética</h2>
+                <label for="design">Você tem preferências de estilo de design?</label>
+                <textarea id="design" name="design"></textarea>
+
+                <label for="cores">Existem cores ou paletas específicas que gostaria de utilizar?</label>
+                <input type="text" id="cores" name="cores">
+
+                <label for="referencias">Há algum site ou app que você considera uma referência?</label>
+                <textarea id="referencias" name="referencias"></textarea>
+
+                <label for="navegacao">Como você quer que os visitantes se sintam ao navegar no site/app?</label>
+                <textarea id="navegacao" name="navegacao"></textarea>
+            </section>
+
+            <section>
+                <h2>5. Funcionalidades e Recursos</h2>
+                <label for="funcionalidades">Quais funcionalidades principais o site/app deve ter?</label>
+                <textarea id="funcionalidades" name="funcionalidades"></textarea>
+
+                <label for="recurso">Há algum recurso específico que você gostaria de incluir?</label>
+                <textarea id="recurso" name="recurso"></textarea>
+
+                <label for="prioridades">Qual é a prioridade entre essas funcionalidades?</label>
+                <textarea id="prioridades" name="prioridades"></textarea>
+            </section>
+
+            <section>
+                <h2>6. Estrutura e Navegação</h2>
+                <label for="paginas">Quantas páginas o site/app terá?</label>
+                <textarea id="paginas" name="paginas"></textarea>
+
+                <label for="menu">Como você imagina a navegação?</label>
+                <textarea id="menu" name="menu"></textarea>
+
+                <label for="conteudo">Há algum conteúdo específico que deve ser destacado?</label>
+                <textarea id="conteudo" name="conteudo"></textarea>
+            </section>
+
+            <section>
+                <h2>7. Conteúdo</h2>
+                <label for="conteudo_atual">Você já tem todo o conteúdo necessário para o site/app?</label>
+                <textarea id="conteudo_atual" name="conteudo_atual"></textarea>
+
+                <label for="conteudo_dinamico">Existe algum conteúdo dinâmico que precisa ser atualizado com frequência?</label>
+                <textarea id="conteudo_dinamico" name="conteudo_dinamico"></textarea>
+            </section>
+
+            <section>
+                <h2>8. Integrações</h2>
+                <label for="integracoes">O site/app precisa ser integrado a outros sistemas ou plataformas?</label>
+                <textarea id="integracoes" name="integracoes"></textarea>
+            </section>
+
+            <section>
+                <h2>9. Prazo e Orçamento</h2>
+                <label for="prazo">Qual é o prazo ideal para a entrega do projeto?</label>
+                <input type="text" id="prazo" name="prazo">
+
+                <label for="orcamento">Você tem um orçamento estimado para o desenvolvimento do site/app?</label>
+                <input type="text" id="orcamento" name="orcamento">
+            </section>
+
+            <section>
+                <h2>10. Manutenção e Suporte</h2>
+                <label for="manutencao">Quem será responsável pela manutenção e atualização do site/app?</label>
+                <textarea id="manutencao" name="manutencao"></textarea>
+            </section>
+
+            <section>
+                <h2>11. Feedback e Sugestões</h2>
+                <label for="feedback">Existe algo mais que gostaria de compartilhar ou sugerir para o projeto?</label>
+                <textarea id="feedback" name="feedback"></textarea>
+            </section>
+
+            <button type="submit">Enviar Formulário</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
